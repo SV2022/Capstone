@@ -1,3 +1,7 @@
+body {margin:0;}
+
+
+
 
     .site-header {
         text-align:center;
@@ -8,11 +12,7 @@
     }
 
     .center-box {
-        width:500px;
-        height:250px;
         border:5px solid RGB(52, 67, 94);
-        position: relative;
-        left:34%;
         text-align:center;
         z-index: 1;
     }
@@ -20,12 +20,7 @@
     .center-words{
         font-size: 25px;
 		font-family: 'Architects Daughter', cursive;
-        position:relative;
         text-align: center;
-        top:50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
     }
 
     figcaption{
@@ -49,7 +44,6 @@
     }
 
 	.heading{
-		position: relative;
         padding-top: 20px;
 		font-weight: bold;
 		font-size: 50px;
@@ -86,58 +80,75 @@
     }
 
     .menu{
-        height:75px;
-        background-color: #333;
-        color: #f2f2f2;
-        position: relative;
+        
     }
+
+
+.nav-wrapper {
+	background:#000;
+}
+	
+	
+.nav {
+	padding:20px 0;
+	height:75px;
+	width:50%;
+	margin:0 auto;
+}
     
-    #mainMenu {
-        margin:10px;
-        padding-top: 20px;
-        width:900px;
-        z-index: 100;
-        font-family: sans-serif;
-    }
-    #mainMenu li {
-        position:relative;
-        display:block;
-        margin-left:50%;
-        float:left;
-        width:120px;
-        margin-left:2px;
-        border:1px solid #000;
-    }
-    #mainMenu a {
-        display:block;
-        padding:30px 3px;
-        text-decoration:none;
-        text-align:center;
-        background-color:#333;
-        font-size: 40;
-        color:#fff;
-    }
-    #mainMenu a:hover {
-        background-color:#fff;
-        color:#333;
-    }
-    #mainMenu li ul {
-        position:absolute;
-        margin:0px;
-        padding:0px;
-        left:-3px;
-        top:58px;
-        display:none;
-    }
-    #mainMenu li ul li {
-        width:120px;
-        background-color: #f1f1f1;
-        font-size:smaller;
-        border-top:none;
-    }
-    #mainMenu li ul li:first-child {
-        border-top:1px solid #fff;
-    }
-    #mainMenu li:hover ul {
-        display:block;
-    }
+ #mainMenu {
+	 
+}
+
+
+#mainMenu li {
+	position:relative;
+	display:block;
+	float:left;
+	}
+	
+#mainMenu a {
+	display:block;
+	padding:10px 40px;
+	font-size:24px;
+	text-decoration:none;
+	color:#fff;
+}
+#mainMenu a:hover {
+	
+}
+
+
+#mainMenu li ul {
+	position:absolute;
+	z-index:1000;
+	background:#000;
+	margin:0px;
+	padding:0px;
+	left:-3px;
+	top:41px;
+	display:none;
+}
+#mainMenu li ul li {
+	text-align:center;
+	float:none;
+}
+
+
+#mainMenu li:hover ul {
+	display:block;
+}
+
+
+.main-wrapper {
+	width:75%;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
