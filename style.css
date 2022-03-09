@@ -1,7 +1,7 @@
-body {margin:0;}
-
-
-
+body {
+    margin:0;
+    box-sizing:border-box;
+    background-color:black}
 
     .site-header {
         text-align:center;
@@ -20,6 +20,7 @@ body {margin:0;}
     .center-words{
         font-size: 25px;
 		font-family: 'Architects Daughter', cursive;
+        color:#fff;
         text-align: center;
     }
 
@@ -44,9 +45,10 @@ body {margin:0;}
     }
 
 	.heading{
-        padding-top: 20px;
+        padding-top: 20px 0;
 		font-weight: bold;
 		font-size: 50px;
+        color:#fff;
         font-family: 'Roboto Slab', serif;
 		text-align: center;
         z-index: 0;
@@ -61,8 +63,10 @@ body {margin:0;}
 	.title{
 		font-size: 100px;
 		font-family: 'Merienda', cursive; 
-    	position: relative;
-    	top: 25%;
+    	top: 30%;
+        position: absolute;
+        left: 20%;
+        color:white;
     	text-align: center;
 	}
 
@@ -79,27 +83,28 @@ body {margin:0;}
         border:10px solid RGB(52, 67, 94);
     }
 
-    .menu{
-        
-    }
 
 
 .nav-wrapper {
 	background:#000;
 }
 	
-	
+
+#logo{
+    float:left;
+    height: 100px;
+}
+
 .nav {
 	padding:20px 0;
 	height:75px;
-	width:50%;
-	margin:0 auto;
-}
-    
- #mainMenu {
-	 
+	float: right;
 }
 
+.mainImage{
+    width:100%; 
+    height: 500px;
+}
 
 #mainMenu li {
 	position:relative;
@@ -114,10 +119,6 @@ body {margin:0;}
 	text-decoration:none;
 	color:#fff;
 }
-#mainMenu a:hover {
-	
-}
-
 
 #mainMenu li ul {
 	position:absolute;
@@ -144,11 +145,3 @@ body {margin:0;}
 	width:75%;
 	margin:0 auto;
 }
-
-
-
-
-
-
-
-
