@@ -1,0 +1,214 @@
+body {
+    margin:0;
+    box-sizing:border-box;
+    background-color:black}
+
+    .site-header {
+        text-align:center;
+        padding:50px 0 50px 0;
+        background-color: RGB(171, 199, 152); 
+        position:relative;
+        font-size: 100px;
+    }
+
+    .center-box {
+        border:5px solid RGB(52, 67, 94);
+        text-align:center;
+        z-index: 1;
+    }
+    
+    .center-words{
+        font-size: 25px;
+		font-family: 'Old Standard TT', serif;
+        color:#fff;
+        text-align: center;
+    }
+
+    figcaption{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .center-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        z-index: 1;
+    }
+
+
+    .blue-border{
+        margin: 0; 
+        height:10px; 
+        background-color: RGB(52, 67, 94);
+    }
+
+	.heading{
+        padding-top: 40px;
+		font-weight: bold;
+		font-size: 50px;
+        color:#fff;
+        font-family: 'Bebas Neue', cursive;
+		text-align: center;
+        z-index: 0;
+	}
+
+	.title-box{
+		height:200px;
+		background-color: RGB(171, 199, 152);
+		position:relative;
+	}
+
+	.title {
+        font-size: 100px;
+        font-family: 'Merienda', cursive;
+        color:white;
+        text-align: center;
+        margin-top:150px;
+        position: relative;
+        z-index: 100;
+        }
+
+    .subtitle {
+        font-size: 100px;
+        font-family: 'Merienda', cursive;
+        color:black;
+        background-color: #d1d1d1;
+        text-align: center;
+        position: relative;
+        z-index: 100;
+        }
+
+    .reftitle {
+        font-size: 100px;
+        font-family: 'Merienda', cursive;
+        color:black;
+        background-color: #d1d1d1;
+        position: relative;
+        z-index: 100;
+        margin-left: 30px;
+        }
+    .refheading{
+        padding-top: 40px;
+		font-weight: bold;
+		margin-left:30px;
+        font-size: 50px;
+        color:#fff;
+        font-family: 'Bebas Neue', cursive;
+        z-index: 0;
+    }
+    .references{
+        display: block;
+        color:white;
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: 30px;
+		font-family: 'Old Standard TT', serif;
+    }
+
+    .description{
+        box-sizing:border-box;
+        display: block;
+        color:white;
+        margin: auto;
+        width: 50%;
+        text-align:center;
+        font-size: 25px;
+		font-family: 'Old Standard TT', serif;
+    }
+
+
+
+.nav-wrapper {
+	background:#000;
+    padding-bottom: 115px;
+}
+	
+
+#logo{
+    float:left;
+    height: 100px;
+}
+
+
+.logoTitle{
+    float:left;
+    color:white;
+    padding:40px 0;
+    font-size:30px
+}
+
+.nav {
+	padding:20px 0;
+	height:75px;
+	float: right;
+}
+
+.mainImage {
+    width:100%;
+    margin: 0 auto;
+    height: 500px;
+    margin-top:-310px;
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+    }
+
+#mainMenu li {
+	position:relative;
+	display:block;
+	float:left;
+	}
+	
+#mainMenu a {
+	display:block;
+	padding:10px 40px;
+	font-size:24px;
+	text-decoration:none;
+	color:#fff;
+}
+
+#mainMenu a:hover {
+    color: white;
+    background-color:grey;
+}
+
+#mainMenu li ul {
+    position:absolute;
+    z-index:1000;
+    background:#000;
+    margin:0px;
+    padding:0px;
+    left:-3px;
+    top:41px;
+    visibility:hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.25s linear;
+    }
+#mainMenu li ul li {
+	text-align:center;
+	float:none;
+}
+
+
+#mainMenu li:hover ul {
+    display:block;
+    visibility:visible;
+    opacity: 1;
+    }
+
+
+.main-wrapper {
+	width:75%;
+	margin:0 auto;
+}
+
+#refLink a{
+    text-decoration:none;
+    color:white;
+}
+
+#refLink a:visited{
+    color:white
+}
